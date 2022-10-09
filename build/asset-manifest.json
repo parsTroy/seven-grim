@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.61c59caf.css",
+    "main.js": "/static/js/main.36368ff1.js",
+    "static/media/bill.png": "/static/media/bill.042c4c8c3a77ddd977e0.png",
+    "static/media/card.png": "/static/media/card.a2e9df80e8b4106cace9.png",
+    "static/media/robot.png": "/static/media/robot.da3e5d7b27ea357d5cc8.png",
+    "static/media/people01.png": "/static/media/people01.a40f2b61208976a6d644.png",
+    "static/media/google.svg": "/static/media/google.c869581ad4b65688b371446c80ff8e60.svg",
+    "static/media/apple.svg": "/static/media/apple.fcf3c88ab06d5964255bd6139baa74da.svg",
+    "static/media/people02.png": "/static/media/people02.bba1091ac468e1439956.png",
+    "static/media/grimlogo.png": "/static/media/grimlogo.f1ebd1a7f41bd697e933.png",
+    "static/media/grimlogo.svg": "/static/media/grimlogo.ba4acb823b7a4f5451ca66619a95e7a5.svg",
+    "static/media/logo.svg": "/static/media/logo.18c614c3672969aec759aa10c7c7323e.svg",
+    "static/media/instagram.svg": "/static/media/instagram.f9d228c1cbb5edc0706aebd672fb769e.svg",
+    "static/media/Discount.svg": "/static/media/Discount.2897e249c4508a0b5f09c30eec73a677.svg",
+    "static/media/close.svg": "/static/media/close.4b1cc5d063959cf86b7849aef0c24c63.svg",
+    "static/media/Star.svg": "/static/media/Star.ef30a8a341be8a6f4b91e349c9ab8d5b.svg",
+    "static/media/menu.svg": "/static/media/menu.773d1f3d335d2a46203de2be7f4f4e19.svg",
+    "static/media/twitter.svg": "/static/media/twitter.f573afd4ee70524f8c1816b085f94583.svg",
+    "static/media/Shield.svg": "/static/media/Shield.f74c4f99b8d324b78023bdd3d4902dd5.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.e1d176e65b3271b94f634a1a094bd9f6.svg",
+    "static/media/arrow-up.svg": "/static/media/arrow-up.f0281f2a41a6844dff95ff0c3a06e194.svg",
+    "static/media/Send.svg": "/static/media/Send.eb5fc3717e42b4fea70983e0de29bcc2.svg",
+    "index.html": "/index.html",
+    "static/media/quotes.svg": "/static/media/quotes.75ffee30c7ee489e428632be36d4b8b6.svg",
+    "static/media/facebook.svg": "/static/media/facebook.34082cd87ee9398b19edd541204c2227.svg",
+    "main.61c59caf.css.map": "/static/css/main.61c59caf.css.map",
+    "main.36368ff1.js.map": "/static/js/main.36368ff1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61c59caf.css",
+    "static/js/main.36368ff1.js"
+  ]
+}
