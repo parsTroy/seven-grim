@@ -2,6 +2,7 @@ import React from 'react';
 import styles from '../style';
 import { grimlogopng } from '../assets';
 import { footerLinks, socialMedia } from '../constants';
+import { Link } from 'react-router-dom';
 
 const Footer = () => (
     <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
@@ -19,7 +20,7 @@ const Footer = () => (
               <ul className='list-none mt-4'>
                 {footerLink.links.map((link, index) => (
                   <li key={link.name} className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${index !== footerLink.links.length - 1 ? 'mb-4' : 'mb-0'}`}>
-                    {link.name}
+                    {<Link to={link.link}>{link.name}</Link>}
                   </li>
                 ))}
               </ul>
