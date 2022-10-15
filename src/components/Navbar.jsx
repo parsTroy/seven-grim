@@ -2,13 +2,14 @@ import React, { useState } from 'react'
 import { navLinks } from '../constants/index'
 import { close, grimlogopng, menu } from '../assets/index'
 import { Link } from 'react-router-dom'
+import Dashboard from './Dashboard/Dashboard'
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
-      <img src={grimlogopng} alt='grim-studios' className='w-[124px] h-[32px]' />
+      <Link to='/' ><img src={grimlogopng} alt='grim-studios' className='w-[124px] h-[32px]' /></Link>
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav, index) => (
           <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] text-white ${index === navLinks.length - 1 ? 'mr-10' : 'mr-10'}`}>

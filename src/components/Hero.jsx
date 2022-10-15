@@ -2,6 +2,7 @@ import React from 'react';
 import styles from '../style';
 import { discount, robot } from '../assets';
 import GetStarted from './GetStarted';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -21,7 +22,9 @@ const Hero = () => {
             <span className='text-gradient'> our love</span> {' '}
           </h1>
           <div className='ss:flex hidden md:mr-4 mr-0'>
-            <GetStarted />
+            <Link to='/games'>
+              <GetStarted />
+            </Link>
           </div>
         </div>
 

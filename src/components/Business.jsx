@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { features } from '../constants';
 import styles, { layout } from '../style';
 import Button from './Button';
@@ -25,7 +26,10 @@ const Business = () => (
         <h2 className={styles.heading2}>Let our games <br className='sm:block hidden' /> tell you a story.</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>We consider our games to an extension of ourselves. Giving us the ability to tell our story.</p>
 
-        <Button styles='mt-10' />
+
+        <Link to='games'>
+          <Button styles='mt-10' />
+        </Link>
       </div>
 
       {/* Feature Image and Description. \/ */}

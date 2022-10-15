@@ -21,6 +21,8 @@ import TermsOfService from './components/FooterLinks/TermsOfService';
 import Help from './components/FooterLinks/Help';
 import Blog from './components/FooterLinks/Blog';
 import NewsLetter from './components/FooterLinks/NewsLetter';
+import Games from './components/NavBarLinks/Games';
+import News from './components/NavBarLinks/News';
 
 const App = () => (
   <>
@@ -35,7 +37,9 @@ const App = () => (
         <div className={`${styles.boxWidth}`}>
           <Routes>
             <Route path='/' element={<Dashboard />} />
+            <Route path='/games' element={<Games />} />
             <Route path='/about' element={<AboutUs />} />
+            <Route path='/news' element={<News />} />
             <Route path='/explore' element={<Explore />} />
             <Route path='/terms-of-service' element={<TermsOfService />} />
             <Route path='/help' element={<Help />} />
