@@ -94,7 +94,7 @@ export const footerLinks = [
     links: [
       {
         name: "About Us",
-        link: "/about-us",
+        link: "/about",
       },
       {
         name: "Explore",

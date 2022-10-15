@@ -15,6 +15,12 @@ import {
 } from './components/index';
 import AboutUs from './components/FooterLinks/AboutUs';
 import Dashboard from './components/Dashboard/Dashboard';
+import Team from './components/FooterLinks/Team';
+import Explore from './components/FooterLinks/Explore';
+import TermsOfService from './components/FooterLinks/TermsOfService';
+import Help from './components/FooterLinks/Help';
+import Blog from './components/FooterLinks/Blog';
+import NewsLetter from './components/FooterLinks/NewsLetter';
 
 const App = () => (
   <>
@@ -29,7 +35,13 @@ const App = () => (
         <div className={`${styles.boxWidth}`}>
           <Routes>
             <Route path='/' element={<Dashboard />} />
-            <Route path='/about-us' element={<AboutUs />} />
+            <Route path='/about' element={<AboutUs />} />
+            <Route path='/explore' element={<Explore />} />
+            <Route path='/terms-of-service' element={<TermsOfService />} />
+            <Route path='/help' element={<Help />} />
+            <Route path='/blog' element={<Blog />} />
+            <Route path='/newsletter' element={<NewsLetter />} />
+            <Route path='/team' element={<Team />} />
           </Routes>
             <Footer />
         </div>

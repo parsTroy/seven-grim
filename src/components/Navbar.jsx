@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { navLinks } from '../constants/index'
 import { close, grimlogopng, menu } from '../assets/index'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -11,7 +12,7 @@ const Navbar = () => {
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav, index) => (
           <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] text-white ${index === navLinks.length - 1 ? 'mr-10' : 'mr-10'}`}>
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            <Link to={`/${nav.id}`}>{nav.title}</Link>
           </li>
         ))}
       </ul>
