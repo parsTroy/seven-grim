@@ -25,6 +25,7 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import grimlogo from "./grimlogo.svg";
 import grimlogopng from "./grimlogo.png";
+import monkey from "./monkey.gif";
 
 export {
   airbnb,
@@ -54,4 +55,5 @@ export {
   people03,
   grimlogo,
   grimlogopng,
+  monkey,
 };
