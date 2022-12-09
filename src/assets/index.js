@@ -26,12 +26,14 @@ import people03 from "./people03.png";
 import grimlogo from "./grimlogo.svg";
 import grimlogopng from "./grimlogo.png";
 import monkey from "./monkey.gif";
+import carlShaggy from "./carlShaggy.gif";
 
 export {
   airbnb,
   bill,
   binance,
   card,
+  carlShaggy,
   coinbase,
   dropbox,
   logo,
